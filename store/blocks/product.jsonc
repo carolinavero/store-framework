@@ -1,10 +1,10 @@
 {
   "store.product": {
     "children": [
-      "flex.layout.row#main"
+      "flex.layout.row"
     ]
   },
-  "flex-layout.row#main": {
+  "flex-layout.row": {
     "props": {
       "marginTop": 6
     },
@@ -32,7 +32,7 @@
   "product-price": {
     "props": {
       "showSavings": true,
-      "showListPrice": false
+      "showListPrice": true
     }
   }
 }
